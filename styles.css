@@ -1,0 +1,95 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #6B818C;
+}
+
+.portfolio span {
+    
+}
+
+.profile-picture {
+    max-width: 60% 
+}
+
+.index-intro {
+    width: 100%;
+    background-color: rgb(30, 67, 102);
+}
+
+.page-header {
+    color: white; 
+    padding: 10px 60px;
+    margin: 0px;   
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+
+.bio {
+    width: 100%;
+    background-color: rgb(87, 193, 255);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.bio h2 {
+    font-size: 45px;
+}
+p {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    font-family: 'Roboto', sans-serif;
+}
+
+.bio .col-6 {
+    padding-left: 5vw;
+}
+
+.portfolio {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.portfolio .title {
+    padding-top: 1.20vw;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 45px;
+}
+.portfolio h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio ul {
+    font-size: 17px;
+}
+
+.portfolio li {
+    padding: .5vw;
+    text-align: left;
+}
+
+.bio li {
+    margin:20px;
+}
