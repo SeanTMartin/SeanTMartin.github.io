@@ -4,27 +4,39 @@ img {
     height: auto;
 }
 
-a {
-    color: #6B818C;
+.picture {
+    background-color: rgb(13, 165, 253);
+    padding: 25px;
 }
-
-.portfolio span {
-    
-}
-
-.profile-picture {
-    max-width: 60% 
+.pic img {
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    max-width: 20vw;
 }
 
 .index-intro {
     width: 100%;
-    background-color: rgb(30, 67, 102);
+    background-color: #13293D;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .page-header {
     color: white; 
-    padding: 10px 60px;
-    margin: 0px;   
+    padding: 1.2vw 2vw;
+    
+}
+
+.page-header a:visited {
+    color: white;
+}
+
+.page-header i {
+    font-size: 275%;
 }
 
 .col-container {
@@ -33,12 +45,19 @@ a {
 }
 
 
+
 .bio {
     width: 100%;
-    background-color: rgb(87, 193, 255);
-    padding-bottom: 40px;
-    padding-top: 20px;
-    font-size: 20px;
+    padding-bottom: 1.1vw;
+    padding-top: 1.2vw;
+    font-size: 130%;
+    font-weight: 450;
+    color: #13293D;
+}
+
+.blurb {
+    background-color: white;
+    padding: 0;
 }
 
 h2 {
@@ -52,20 +71,29 @@ h3 {
 }
 
 .bio h2 {
-    font-size: 45px;
+    font-size: 200%;
+    padding-top: .9vw;
 }
 p {
     display: table-cell; /* Make elements inside the container behave like table cells */
     font-family: 'Roboto', sans-serif;
 }
 
-.bio .col-6 {
-    padding-left: 5vw;
+.bio .col {
+    min-width: 200px;
+}
+
+.bio .col {
+    padding-bottom: 2vw;
+    padding-top: 25px;
+    max-width: 1000px;
 }
 
 .portfolio {
-    background-color: rgb(255, 255, 255);
+    background-color: #006494;
     width: 100%;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .portfolio .title {
@@ -74,22 +102,70 @@ p {
 
 .portfolio h2 {
     text-align: center;
-    font-size: 45px;
+    font-size: 250%;
+    color: white;
+    padding-bottom: 1vw;
 }
 .portfolio h3 {
     text-align: center;
-    padding: 10px;
+    padding: .4vw;
+    color: white;
 }
 
 .portfolio ul {
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 1.2vw;
 }
 
 .portfolio li {
-    padding: .5vw;
+    padding: .75vw;
     text-align: left;
+    color: white;
+}
+
+.projects a {
+    color: white;
 }
 
 .bio li {
-    margin:20px;
+    padding: 1vw;
 }
+
+.footer {
+    background-color: #13293D;
+    height: 4vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .pic img {
+        max-width: 45vw;
+    }
+    
+
+
+    .bio li {
+        padding-bottom: 3vw;
+        padding-right: 5vw;
+    }
+
+    .bio h2 {
+        padding-top: 4vw;
+    }
+    
+    .portfolio h2 {
+        padding-bottom: 6vw;
+    }
+
+    .portfolio h3 {
+        padding-top: 4vw;
+    }
+
+    .portfolio li {
+        padding-bottom: 3.2vw;
+        font-size: 5vw;
+    }
+
+    .portfolio ul {
+        padding-top: 0px;
+    }
+  }
